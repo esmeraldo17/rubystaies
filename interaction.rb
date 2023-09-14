@@ -28,22 +28,37 @@
 
 #TIMES
 
-#exemplo 1 puts
-6.times {puts "Oi"}
+# #exemplo 1 puts
+# 6.times {puts "Oi"}
 
-#exemplo 1 print
-6.times {print "Oi "}
+# #exemplo 1 print
+# 6.times {print "Oi "}
 
-#exemplo 2 puts
-4.times do 
-    puts "oi"
-end
+# #exemplo 2 puts
+# 4.times do 
+#     puts "oi"
+# end
 
-#exemplo 2 print
-4.times do
-    print "oi "
-end
+# #exemplo 2 print
+# 4.times do
+#     print "oi "
+# end
 
-20.times do |contador|
-    puts "#{contador}"
+# 20.times do |contador|
+#     puts "#{contador}"
+# end
+
+
+#DO/WHILE (loop)
+
+#contador 
+
+counter = 0
+
+loop do
+    puts counter
+    if counter == 150
+        break
+    end
+    counter += 1
 end
