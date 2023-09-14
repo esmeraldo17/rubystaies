@@ -8,27 +8,31 @@
 #senao for domingo nem  feriado
 #IMPRIMA que nosso almoco sera normal
 
-# dia = "feriado"
-# if dia == "domingo" #== e uma comparacao
-#     almoco = "especial"
-# elsif dia == "feriado"
-#     almoco = "mais tarde"
-# else
-#     almoco = "normal"
-# end 
+dia = "feriado"
+if dia == "domingo" #== e uma comparacao
+    almoco = "especial"
+elsif dia == "feriado"
+    almoco = "mais tarde"
+else
+    almoco = "normal"
+end 
 
-# puts "Hoje nosso almoco sera #{almoco}"
+puts "Hoje nosso almoco sera #{almoco}"
+
+
 
 #UNLESS
 
 #declara minha variavel
-# x=20
-#     unless x > 15 # ao menos que x seja maior que 15
-#         puts "x e maior ou igual a 15"
-#     else
-#         puts "x e maior que 15"
-#     end
+x=20
+    unless x > 15 # ao menos que x seja maior que 15
+        puts "x e maior ou igual a 15"
+    else
+        puts "x e maior que 15"
+    end
 
+
+    
 #CASE
 
 #usuario vais entra com o mes de nascimento dele
